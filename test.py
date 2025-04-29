@@ -221,6 +221,8 @@ def evaluate_model(model, X_test, y_test):
     plt.tight_layout()
     plt.show()
     
+
+    
     # Probability distribution plot
     plt.figure(figsize=(10, 6))
     sns.histplot(y_proba_good, bins=30, kde=True)
